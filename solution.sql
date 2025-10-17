@@ -15,8 +15,8 @@ LIMIT 1;
 -- Query 3
 SELECT amount
 FROM loan
-ORDER BY 1 DESC
-LIMIT 1;
+ORDER BY 1
+LIMIT 3;
 
 -- Query 4
 SELECT DISTINCT status
@@ -53,7 +53,7 @@ ORDER BY 1;
 -- Query 9
 SELECT order_id
 FROM `order`
-WHERE account_id = 34
+WHERE account_id = 34;
 
 -- Query 10
 SELECT DISTINCT account_id
